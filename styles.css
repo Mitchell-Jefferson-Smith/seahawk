@@ -1,5 +1,6 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: seagreen;
 }
 
 #fun {
@@ -17,7 +18,7 @@ p {
 }
 
 body {
-    background-color: rgb(15, 13, 165);
+    background-color: rgb(15, 15, 31);
 }
 
 li#fun {
@@ -28,8 +29,21 @@ li#fun {
 a:hover {
     color: rgb(0, 157, 230);
     font-size: 1.5rem;
+    padding: 10%;
 }
 
 a {
     color: rgb(244, 245, 244);
+    margin: 25%;
+}
+
+h2 {
+    padding: 10%;
+
+}
+
+img {
+    padding: 10%;
+    width: 50%;
+
 }
