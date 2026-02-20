@@ -3,6 +3,35 @@
     color: seagreen;
 }
 
+
+#navbar {
+    list-style: none;
+    padding: 1em 0;
+    text-align: center;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    overflow: hidden;
+    background-color: rgb(0, 138, 23);
+}
+#navbar ul li {
+    display: inline;
+    margin: 0 1.5em;
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#navbar ul li a.current {
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 #fun {
     color: rgb(221, 199, 0);
     font-size: 1.5rem;
@@ -47,14 +76,50 @@ h2 {
     width: 25%;
 }
 
+/* i belive this is a scalible image */
 img {
     padding: 10%;
     width: 50%;
     float: center;
+    height: auto;
 }
 
 h3 {
     column-count: 3;
     column-gap: 25%;
     column-rule: 4px solid green;
+}
+
+@media (max-width: 1000px) {
+    h2 {
+    padding: 5%;
+    color: rgb(3, 24, 56);
+    border-radius: 1rem;
+    width: 25%;
+}
+h3 {
+    column-count: 2;
+    column-gap: 25%;
+    column-rule: 4px solid green;
+}
+#fun {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+}
+
+
+@media (max-width: 768px) {
+    h2 {
+    padding: 5%;
+    color: rgb(50, 3, 71);
+    border-radius: 1rem;
+    width: 20%;
+    }
+    img {
+    padding: 10%;
+    width: 25%;
+    float: right;
+    height: auto;
+}
 }
