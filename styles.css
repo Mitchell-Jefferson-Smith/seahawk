@@ -1,9 +1,10 @@
+/* styles.css */
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: seagreen;
 }
 
-
+/* all the navbar styles stuff */
 #navbar {
     list-style: none;
     padding: 1em 0;
@@ -28,9 +29,7 @@
 #navbar ul li a:hover {
     text-decoration: underline;
 }
-
-
-
+/* end of the navbar styles stuff */
 
 #fun {
     color: rgb(221, 199, 0);
@@ -56,16 +55,18 @@ li#fun {
     color: rgb(184, 3, 108);
 }
 
+
+/* default link styling */
+a {
+    color: rgb(244, 245, 244);
+    margin: 25%;
+}
 a:hover {
     color: rgb(0, 157, 230);
     font-size: 1.5rem;
     padding: 1%;
 }
-
-a {
-    color: rgb(244, 245, 244);
-    margin: 25%;
-}
+/* end of default link styling */
 
 h2 {
     padding: 5%;
@@ -83,7 +84,7 @@ img {
     float: center;
     height: auto;
 }
-
+/* heading 3 multi-column layout */
 h3 {
     column-count: 3;
     column-gap: 25%;
