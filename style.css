@@ -1,0 +1,135 @@
+/* grid areas for logo and navigation bar */
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "logo nav nav"
+}
+
+/* grid areas for main content */
+
+.grid-container-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "Bubble1 Bubble2"
+    "Bubble3 Bubble4"
+}
+
+
+
+
+/* seahaks image to left */
+.logo {
+    grid-area: logo;
+    width: 120px;
+}
+
+/* navigation bar */
+
+/* Navigation menu */
+.navMenu {
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navMenu a {
+    padding: 10px;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1.2rem;
+}
+
+.navMenu a:hover {
+    color: green;
+}
+
+
+/********** main content **********/
+
+
+/* bubbles */
+
+.Bubble1 {
+    grid-area: Bubble1;
+}
+
+.Bubble2 {
+    grid-area: Bubble2;
+}
+
+.Bubble3 {
+    grid-area: Bubble3;
+}
+
+.Bubble4 {
+    grid-area: Bubble4;
+}
+
+/* main words in bubble */
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: seagreen;
+}
+
+#fun {
+    color: rgb(221, 199, 0);
+    font-size: 1.5rem;
+}
+
+li#fun {
+    font-weight: bold;
+    color: rgb(184, 3, 108);
+}
+
+ul li {
+    color: rgb(0, 197, 0);
+    background-color: rgba(0, 0, 255, 0.356);
+}
+
+p {
+    color: rgb(0, 197, 0);
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: rgb(15, 15, 31);
+}
+
+h2 {
+    padding: 5%;
+    color: black;
+    border: 10px solid rgb(1, 41, 126);
+    background-color: rgb(0, 138, 23);
+    border-radius: 3rem;
+    width: 25%;
+}
+
+@media (max-width: 1000px) {
+    h2 {
+    padding: 5%;
+    color: rgb(3, 24, 56);
+    border-radius: 1rem;
+    width: 25%;
+    }
+    #fun {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+}
+
+@media (max-width: 768px) {
+    h2 {
+    padding: 30%;
+    color: rgb(50, 3, 71);
+    border-radius: 1rem;
+    width: 20%;
+    }
+}

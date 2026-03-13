@@ -4,28 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Page2.html">About Us</a></li>
-      <li><a href="page3.html">Reduce</a></li>
-      <li><a href="https://www.seahawks.com/">Seahksas</a></li>
-    </ul>
+    <!-- make the grid to orinice the website -->
+    <div class="grid-container">
+    <!--image on the top lefy-->
+    <img class="logo" src="Seattle.png" alt="Seahawk Logo">
+    <!--Navigation menu-->
+    <nav class="navMenu">
+      <a href="index.html">Home</a>
+      <a href="page1.html">Blog</a>
+      <a href="page2.html">Work</a>
+      <a href="https://www.seahawks.com/">About</a>
     </nav>
-    <header>
-        <p><a href="#fun">infomation</a></p>
-        <h1>My Wonderful Webpage!!!</h1>
-        <p>Welcome to my fan-made corner of the internet.</p>
-    </header>
-
-    <main>
-        <!-- imager here-->
-        <img src="seahawk.png" alt="Seahawk Logo">
-        <a href="Page2.html"> page 2 link</a>        
-        <section>
+    <p><a href="#fun">down</a></p>
+    </div>
+    <div class="grid-container-main">
+<!--Main content-->
+        <section class="Bubble1">
             <h2>Best Players for the Seahawks</h2>
             <p>Here are some standout players I think deserve recognition:</p>
             <ul>
@@ -34,8 +31,8 @@
                 <li>Kenny McIntosh:  Lorem ipsum dolor sit amet, consectetur</li>
             </ul>
         </section>
-        <!-- reasons to love seahawks -->
-        <section>
+
+        <section class="Bubble2">
             <h2>Why I Love the Seahawks</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -44,18 +41,24 @@
             </p>
         </section>
 
-        <section>
+        <section class="Bubble3">
             <h2 id="fun">Fun Facts</h2>
             <ul>
                 <li>The Seahawks joined the NFL in 1976.</li>
                 <li>The fans are known as the “12th Man.”</li>
                 <li>Their stadium is one of the loudest in the league.</li>
             </ul>
-        </section>
-        <!-- definitely not a rickroll (totally legit football link) -->
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Not a rick roll it a football link</a>
-    </main>
+        </section >
 
+        <section class="Bubble4">
+            <h2>Why I Love the Seahawks</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            </p>
+        </section>        
+    </div>
     <footer>
         <p>Brought to you by me — a dedicated football fan!</p>
     </footer>
