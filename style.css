@@ -72,6 +72,12 @@
     grid-area: Bubble4;
 }
 
+.Bubble5 {
+    grid-area: Bubble5;
+    float: center;
+    padding-bottom: 5000px;
+}
+
 /* main words in bubble */
 
 * {
