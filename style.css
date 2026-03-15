@@ -105,6 +105,12 @@ p {
     font-size: 1.5rem;
 }
 
+p1 {
+    color: rgb(0, 197, 0);
+    font-size: 1.5rem;
+    font-family: 'Bitcount Prop Double Ink', 'Roboto', sans-serif;
+}
+
 body {
     background-color: rgb(15, 15, 31);
 }
