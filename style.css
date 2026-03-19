@@ -1,12 +1,14 @@
 /* grid areas for logo and navigation bar */
 
 .grid-container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "logo nav nav"
+    height: 180px;
+    display: flex;
+    justify-content: left;
+}
+
+.down {
+    grid-area: down;
+    width: 120px;
 }
 
 /* grid areas for main content */
@@ -35,7 +37,7 @@
 .navMenu {
     grid-area: nav;
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
